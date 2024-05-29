@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Maui.Graphics" Version="7.0.101" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vector2D\Vector2D.csproj" />
+  </ItemGroup>
+
+</Project>
